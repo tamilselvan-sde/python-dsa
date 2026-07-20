@@ -1,6 +1,6 @@
 # for Loop — Definite Iteration
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 03 — Control Flow
 > 🔗 Related: [if_else.md](./if_else.md) · [while_loop.md](./while_loop.md) · [break_continue.md](./break_continue.md) · Back to [README](../README.md)
 

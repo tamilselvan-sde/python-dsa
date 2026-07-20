@@ -1,6 +1,6 @@
 # Sorting Algorithms in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [searching.md](./searching.md) · [binary_search.md](./binary_search.md) · [recursion.md](./recursion.md) · [two_pointers.md](./two_pointers.md)
 > Data: [list.md](../02_Data_Types/list.md) · [heapq.md](../06_Collections/heapq.md) · [big_o.md](../08_Time_Complexity/big_o.md)

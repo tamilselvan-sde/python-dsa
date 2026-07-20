@@ -1,6 +1,6 @@
 # Lambda Functions in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 04 — Functions
 > 🔗 Related: [functions.md](./functions.md) · [map.md](./map.md) · [filter.md](./filter.md) · [reduce.md](./reduce.md) · [sorted key](https://docs.python.org/3/library/functions.html#sorted) · Back to [README](../README.md)
 

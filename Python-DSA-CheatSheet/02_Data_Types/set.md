@@ -1,6 +1,6 @@
 # Set
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 02 — Data Types
 > 🔗 Related: [dictionary.md](./dictionary.md), [../06_Collections/counter.md](../06_Collections/counter.md), [../07_Algorithms/hash_map.md](../07_Algorithms/hash_map.md) · Back to [README](../README.md)
 

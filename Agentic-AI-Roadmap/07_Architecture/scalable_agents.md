@@ -1,5 +1,8 @@
 # Scalable Agent Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Scalable agent systems are architectures for deploying AI agents that can handle millions of concurrent conversations, coordinate across multiple tools and data sources, maintain state reliably, and recover from failures — all while keeping latency under user expectations.
 

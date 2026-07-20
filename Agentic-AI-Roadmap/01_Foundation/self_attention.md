@@ -1,5 +1,8 @@
 # Self-Attention
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Imagine you're reading "The animal didn't cross the street because it was too tired." To understand what "it" refers to, you look back at "animal" and "street" and figure the most relevant one is "animal." Self-attention does this for EVERY word in a sentence simultaneously — each word looks at every other word to understand the context.

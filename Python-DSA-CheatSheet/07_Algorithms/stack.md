@@ -1,6 +1,6 @@
 # Stack in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.selvan@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [queue.md](./queue.md) · [hash_map.md](./hash_map.md) · [linked_list.md](./linked_list.md) · [recursion.md](./recursion.md)
 > Data: [list.md](../02_Data_Types/list.md) · [deque.md](../06_Collections/deque.md)

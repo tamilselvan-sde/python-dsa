@@ -1,5 +1,8 @@
 # Autoscaling for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Autoscaling for AI dynamically adjusts compute resources (pods, GPU nodes, storage) based on real-time demand — scaling up during traffic spikes and down during lulls. Key metrics include request rate, GPU utilization, queue depth, and inference latency.
 

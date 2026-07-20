@@ -1,5 +1,8 @@
 # MLflow — ML Platform
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 MLflow is an open-source platform for managing the ML lifecycle: experimentation, reproducibility, deployment, and a central model registry. It provides four components: Tracking (log params/metrics/artifacts), Projects (packaging), Models (format + serving), and Registry (versioned model store).
 

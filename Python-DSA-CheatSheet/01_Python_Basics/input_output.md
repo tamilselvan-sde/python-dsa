@@ -1,6 +1,6 @@
 # Input / Output in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 01 — Python Basics
 > 🔗 Related: [variables](./variables.md) · [type casting](./type_casting.md) · [strings](../02_Data_Types/strings.md) · Back to [README](../README.md)
 

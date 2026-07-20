@@ -1,5 +1,8 @@
 # Haystack Framework
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Haystack is an open-source NLP framework created by deepset (Berlin-based AI company) for building production-ready search systems, question-answering pipelines, and RAG applications. First released in 2020, Haystack predates the LLM boom and has evolved from a search-centric framework to a full-featured LLM orchestration platform. It provides modular "pipeline" components that can be connected into DAGs for document processing, retrieval, and generation.

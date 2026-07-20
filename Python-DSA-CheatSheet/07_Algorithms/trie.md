@@ -1,6 +1,6 @@
 # Trie (Prefix Tree) in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [Trees](../05_OOP/classes.md) · [DFS](./dfs.md) · [BFS](./bfs.md) · [Hash / dict](../02_Data_Types/dict.md)
 > Data: [dict.md](../02_Data_Types/dict.md) · [big_o.md](../08_Time_Complexity/big_o.md)

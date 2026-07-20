@@ -1,6 +1,6 @@
 # collections.deque
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 06 — Collections
 > 🔗 Related: [counter.md](./counter.md) · [defaultdict.md](./defaultdict.md) · [heapq.md](./heapq.md) · [../07_Algorithms/sliding_window.md](../07_Algorithms/sliding_window.md)
 > Back to [README](../README.md)

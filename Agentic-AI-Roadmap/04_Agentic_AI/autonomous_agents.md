@@ -1,5 +1,8 @@
 # Fully Autonomous Agents (AutoGPT-style)
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 A fully autonomous agent operates independently over extended periods — hours or days — to achieve complex, open-ended goals. It maintains its own task list, prioritizes work, manages its own context window, stores long-term memory, and self-corrects without human intervention. The canonical implementation is AutoGPT, which broke new ground in 2023.
 

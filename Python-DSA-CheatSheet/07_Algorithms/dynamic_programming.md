@@ -1,6 +1,6 @@
 # Dynamic Programming in Python (DETAILED)
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [recursion.md](./recursion.md) · [sorting.md](./sorting.md) · [greedy.md](./greedy.md)
 > Data: [big_o.md](../08_Time_Complexity/big_o.md) · [matrix.md](../02_Data_Types/matrix.md)

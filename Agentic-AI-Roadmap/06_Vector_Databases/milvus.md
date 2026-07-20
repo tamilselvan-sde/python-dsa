@@ -1,5 +1,8 @@
 # Milvus
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Milvus is an open-source, cloud-native vector database built for billion-scale similarity search. Originally developed by Zilliz, it separates compute from storage using a log-structured architecture, enabling elastic scaling and GPU acceleration.
 

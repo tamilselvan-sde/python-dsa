@@ -1,5 +1,8 @@
 # Mixture of Experts (MoE)
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Imagine you have a team of specialists: a chef, a mechanic, and a doctor. When someone asks "What's for dinner?", only the chef answers — the mechanic and doctor stay quiet. MoE does this for neural networks: it has many "expert" sub-networks, but only activates a few per input, saving massive compute while keeping high capacity.

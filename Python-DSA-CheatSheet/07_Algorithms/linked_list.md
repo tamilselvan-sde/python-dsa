@@ -1,6 +1,6 @@
 # Linked List in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [stack.md](./stack.md) · [queue.md](./queue.md) · [hash_map.md](./hash_map.md) · [trees.md](./trees.md)
 > OOP: [../05_OOP/classes.md](../05_OOP/classes.md)

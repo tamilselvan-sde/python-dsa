@@ -1,5 +1,8 @@
 # Scalable RAG Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Scalable RAG (Retrieval-Augmented Generation) systems are architectures that maintain sub-second query latency and high recall as the knowledge base grows from thousands to billions of documents, serving millions of daily queries.
 

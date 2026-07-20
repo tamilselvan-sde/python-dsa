@@ -1,5 +1,8 @@
 # Prefix Caching
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Prefix caching is an optimization that reuses the KV cache computation for common token prefixes across multiple inference requests. When two requests share the same starting tokens (e.g., system prompt), the KV cache for those tokens is computed once and shared.

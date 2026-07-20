@@ -1,5 +1,8 @@
 # Microservices for AI
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Microservices for AI decomposes AI systems into independently deployable, loosely coupled services — each owning a single capability (embedding, retrieval, inference, orchestration) and communicating via well-defined APIs.
 

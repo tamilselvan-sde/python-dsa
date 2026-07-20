@@ -1,5 +1,8 @@
 # CI/CD for ML/AI
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 CI/CD for ML (MLOps CI/CD) extends software CI/CD with ML-specific stages: data validation, feature pipeline testing, model training verification, evaluation gate checks, model registry promotion, and deployment monitoring. The pipeline ensures that code + data + model changes are automatically tested, validated, and deployed to production.
 

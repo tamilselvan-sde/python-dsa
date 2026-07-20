@@ -1,6 +1,6 @@
 # Greedy Algorithms in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [sorting.md](./sorting.md) · [dynamic_programming.md](./dynamic_programming.md) · [sliding_window.md](./sliding_window.md)
 > Data: [big_o.md](../08_Time_Complexity/big_o.md) · [heap.md](../04_Data_Structures/heap.md)

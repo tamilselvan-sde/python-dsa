@@ -1,5 +1,8 @@
 # FAISS
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 FAISS (Facebook AI Similarity Search) is a highly optimized C++ library for efficient similarity search and clustering of dense vectors, with Python bindings. Developed by Meta AI, it provides GPU-accelerated indexing, compression, and search algorithms.
 

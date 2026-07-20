@@ -1,5 +1,8 @@
 # Semantic Cache
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Imagine asking the same question in different ways: "What's the weather?" vs "How's the weather outside?" vs "Tell me the forecast." A regular cache needs the exact same words to match. Semantic cache understands that these all mean the same thing — so if you asked "What's the weather?" earlier, and now ask "How's the weather outside?", the cache recognizes they're semantically identical and returns the same answer without doing any real work.
 

@@ -1,5 +1,8 @@
 # Document Search Engine System Design
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. Requirements
 
 ### Functional Requirements

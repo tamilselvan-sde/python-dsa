@@ -1,6 +1,6 @@
 # Two Pointers in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [sliding_window.md](./sliding_window.md) · [binary_search.md](./binary_search.md) · [sorting.md](./sorting.md) · [searching.md](./searching.md)
 > Data: [list.md](../02_Data_Types/list.md) · [big_o.md](../08_Time_Complexity/big_o.md)

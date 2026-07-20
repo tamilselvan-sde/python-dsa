@@ -1,6 +1,6 @@
 # Heap & Priority Queue in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [sorting.md](./sorting.md) · [bfs.md](./bfs.md) · [recursion.md](./recursion.md) · [Two Pointers](./two_pointers.md)
 > Data: [list.md](../02_Data_Types/list.md) · [heapq module](../06_Collections/heapq.md) · [big_o.md](../08_Time_Complexity/big_o.md)

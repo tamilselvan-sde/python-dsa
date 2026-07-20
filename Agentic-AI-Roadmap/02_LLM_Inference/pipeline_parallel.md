@@ -1,5 +1,8 @@
 # Pipeline Parallelism
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Pipeline parallelism splits a model by layers across multiple GPUs. GPU 0 holds layers 0-9, GPU 1 holds layers 10-19, GPU 2 holds layers 20-29, and so on. During inference, a request passes through GPU 0 → GPU 1 → GPU 2 → GPU 3 sequentially.

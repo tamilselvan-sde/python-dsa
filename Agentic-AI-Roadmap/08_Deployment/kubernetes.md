@@ -1,5 +1,8 @@
 # Kubernetes for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Kubernetes (K8s) for AI is the orchestration platform for deploying, scaling, and managing containerized AI workloads — LLM inference pods, embedding services, vector databases, and data pipelines — across GPU and CPU nodes with automated scheduling, health checking, and rolling updates.
 

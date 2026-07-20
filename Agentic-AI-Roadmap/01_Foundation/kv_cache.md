@@ -1,5 +1,8 @@
 # KV Cache
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Imagine you're writing a story one word at a time. Every time you add a new word, you need to remember what you wrote before. Before KV cache, you'd re-read the entire story from scratch for each new word. With KV cache, you keep a running notebook of what matters — when you add "the," you only figure out what's new, without re-reading everything.

@@ -1,5 +1,8 @@
 # Flash Attention
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Imagine you need to compute something with a big box of LEGOs, but you can only hold a few at a time. Normally you'd dump all LEGOs on the floor (slow memory), sort them, then build. Flash Attention keeps the LEGOs in your hands (fast memory) the whole time, sorting and building in tiny batches — it never dumps them on the floor. The result is the same, but it's way faster and uses less space.

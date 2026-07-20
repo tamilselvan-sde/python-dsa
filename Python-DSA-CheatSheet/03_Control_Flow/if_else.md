@@ -1,6 +1,6 @@
 # if / elif / else — Conditional Control Flow
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 03 — Control Flow
 > 🔗 Related: [for_loop.md](./for_loop.md) · [while_loop.md](./while_loop.md) · [break_continue.md](./break_continue.md) · Back to [README](../README.md)
 

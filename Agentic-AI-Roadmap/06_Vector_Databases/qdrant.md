@@ -1,5 +1,8 @@
 # Qdrant
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Qdrant is a high-performance, open-source vector database written in Rust. It provides advanced filtering, payload indexing, and a gRPC/REST API optimized for production AI workloads at scale.
 

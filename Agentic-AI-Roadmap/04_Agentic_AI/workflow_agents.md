@@ -1,5 +1,8 @@
 # Workflow Agents
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Workflow agents are structured execution patterns that chain, route, or parallelize agent steps. Unlike free-form agents, workflow agents follow predefined topologies: chains (sequential), routers (conditional branching), parallel (fan-out/fan-in), and orchestrator-subworkflow (nested). These patterns mirror enterprise workflow engines but with LLM-powered decision nodes.
 

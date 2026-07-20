@@ -1,6 +1,6 @@
 # Variables in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 01 — Python Basics
 > 🔗 Related: [type casting](./type_casting.md) · [operators](./operators.md) · [input/output](./input_output.md) · Back to [README](../README.md)
 

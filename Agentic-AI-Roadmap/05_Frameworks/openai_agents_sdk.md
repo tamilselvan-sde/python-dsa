@@ -1,5 +1,8 @@
 # OpenAI Agents SDK
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 The OpenAI Agents SDK is an open-source Python framework released by OpenAI in March 2025 for building agentic AI applications. It provides a first-party, lightweight SDK for creating agents powered by OpenAI models (GPT-4o, GPT-4o-mini, o1, o3) with built-in tool use, handoffs between agents, guardrails, and tracing. The SDK represents OpenAI's official entry into the agent framework space — the same technology powering OpenAI's internal agent infrastructure.

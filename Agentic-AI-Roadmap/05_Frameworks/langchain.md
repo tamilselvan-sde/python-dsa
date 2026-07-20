@@ -1,5 +1,8 @@
 # LangChain Framework
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 LangChain is an open-source framework released by LangChain Inc. in October 2022 that simplifies building applications powered by large language models (LLMs). It provides a modular, composable architecture for chaining together LLM calls, tools, data sources, and memory into coherent pipelines. LangChain supports multiple LLM providers (OpenAI, Anthropic, Google, Hugging Face, etc.), vector stores (Pinecone, Weaviate, Chroma, etc.), and tool integrations.

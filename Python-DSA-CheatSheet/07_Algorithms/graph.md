@@ -1,6 +1,6 @@
 # Graph in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [queue.md](./queue.md) · [stack.md](./stack.md) · [hash_map.md](./hash_map.md) · [trees.md](./trees.md) · [linked_list.md](./linked_list.md)
 > Algorithms: [bfs.md](./bfs.md) · [dfs.md](./dfs.md) · [heap.md](./heap.md) · [trie.md](./trie.md)

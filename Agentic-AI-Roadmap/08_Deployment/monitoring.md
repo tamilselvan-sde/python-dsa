@@ -1,5 +1,8 @@
 # Monitoring for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Monitoring for AI systems collects, visualizes, and alerts on metrics from AI infrastructure — model performance (latency, throughput, token usage), system health (GPU utilization, memory), and business outcomes (cost per query, user satisfaction) — providing real-time visibility into production AI operations.
 

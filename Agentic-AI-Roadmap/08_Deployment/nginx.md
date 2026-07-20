@@ -1,5 +1,8 @@
 # NGINX for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 NGINX in AI systems serves as a high-performance reverse proxy, load balancer, and API gateway — handling TLS termination, request routing, rate limiting, caching, and serving static assets for AI web applications at the edge.
 

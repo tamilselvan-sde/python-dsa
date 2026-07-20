@@ -1,5 +1,8 @@
 # Continuous Batching
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Continuous batching (also called dynamic batching or iteration-level batching) is a technique that allows an inference server to add or remove sequences from the running batch at every decoder iteration, rather than waiting for a fixed batch to complete before starting a new one.

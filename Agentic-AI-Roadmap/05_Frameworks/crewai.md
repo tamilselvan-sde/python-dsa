@@ -1,5 +1,8 @@
 # CrewAI Framework
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 CrewAI is an open-source multi-agent orchestration framework created by João Moura in 2023. It enables developers to define AI agents with specific roles, goals, backstories, and tools, then assemble them into "crews" that collaborate to accomplish complex tasks. Agents communicate, delegate, and work in sequence or parallel, mimicking human team dynamics. CrewAI has gained rapid adoption for its intuitive role-based abstraction and built-in support for sequential and hierarchical workflows.

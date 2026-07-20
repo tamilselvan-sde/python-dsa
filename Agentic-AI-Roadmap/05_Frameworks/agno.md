@@ -1,5 +1,8 @@
 # Agno (Phidata)
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Agno (formerly Phidata) is an open-source framework for building multimodal AI agents with memory, knowledge, and tool-use capabilities. It provides a full platform for creating agents that can process text, images, audio, and video; store and retrieve structured memories; access curated knowledge bases; and call external tools. Agno emphasises a **unified data layer** — agents have built-in persistent memory, structured knowledge retrieval, and a rich tool ecosystem.

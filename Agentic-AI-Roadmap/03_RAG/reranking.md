@@ -1,5 +1,8 @@
 # Reranking
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Imagine you're looking for a specific book in a library. First, a librarian quickly scans the shelves and brings you 50 books that might be relevant (retrieval). Then you sit down and carefully read each title and summary to pick the best 5 (reranking). Reranking is the careful reading step — it uses a more powerful but slower model to re-evaluate the top candidates from a fast initial retrieval.
 

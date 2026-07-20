@@ -1,5 +1,8 @@
 # Self-Reflection, Critique & Self-Correction
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Self-reflection is an agent's ability to evaluate its own outputs, identify errors, and correct them autonomously. It mirrors human metacognition — thinking about one's own thinking. Techniques include self-critique (identifying flaws in own reasoning), reflection (re-analyzing after action), and self-correction (fixing errors without external feedback).
 

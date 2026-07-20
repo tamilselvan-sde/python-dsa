@@ -1,5 +1,8 @@
 # Pydantic AI
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Pydantic AI is an open-source Python agent framework built on top of Pydantic (the data validation library) by Samuel Colvin (creator of Pydantic). Released in 2024, it provides a type-safe, structured approach to building LLM-powered applications. The framework is designed around Pydantic's core philosophy — **validate everything** — ensuring that LLM inputs and outputs are rigorously type-checked. Pydantic AI supports OpenAI, Anthropic, Gemini, Groq, Mistral, and Cohere models.

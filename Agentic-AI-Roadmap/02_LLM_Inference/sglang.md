@@ -1,5 +1,8 @@
 # SGLang Inference Framework
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 SGLang is an inference framework designed for structured generation with large language models. It introduces **RadixAttention** — a prefix-sharing mechanism that reuses KV cache across generations with common prefixes, and a domain-specific language (DSL) for expressing complex generation workflows.

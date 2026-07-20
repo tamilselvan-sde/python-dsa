@@ -1,6 +1,6 @@
 # Tuples in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 02 — Data Types
 > 🔗 Related: [strings.md](./strings.md) · [list.md](./list.md) · [numbers.md](./numbers.md)
 > Back to [README](../README.md)

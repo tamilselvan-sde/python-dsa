@@ -1,5 +1,8 @@
 # 🧠 Agentic AI Roadmap — From Beginner to Production Architect
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 > **Production-Grade Learning Path for LLMs, RAG, Agents, and AI Systems**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

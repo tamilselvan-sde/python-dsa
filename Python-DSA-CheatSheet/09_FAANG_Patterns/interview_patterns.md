@@ -1,6 +1,6 @@
 # FAANG Interview Patterns — Pattern Recognition Playbook
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 09 — FAANG Patterns
 > 🔗 Related: [big_o.md](../08_Time_Complexity/big_o.md) · [prefix_sum.md](../07_Algorithms/prefix_sum.md) · [two_pointers.md](../07_Algorithms/two_pointers.md) · [sliding_window.md](../07_Algorithms/sliding_window.md) · [sorting.md](../07_Algorithms/sorting.md) · [binary_search.md](../07_Algorithms/binary_search.md)
 > Back to [README](../README.md)

@@ -1,7 +1,7 @@
 # Python DSA Cheat Sheet — Beginner → FAANG Ready
 
 > A practical, interview-focused handbook to take you from Python beginner to FAANG-ready.
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 >
 > Philosophy: **Intuition first, theory later.** Every topic has plain-English explanations, dry runs, ASCII diagrams, time complexity, real interview patterns, and LeetCode problem links.
 

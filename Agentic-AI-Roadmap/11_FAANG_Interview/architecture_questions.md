@@ -1,5 +1,8 @@
 # FAANG AI/ML Architecture Questions — 50 Questions with Detailed Answers
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. Enterprise Customer Support Chatbot
 
 **Requirements:** 1M DAU, <1s p95 latency, 99.9% availability, multi-language support, integration with existing CRM (Salesforce, Zendesk), ticket escalation when confidence < 0.8.

@@ -1,5 +1,8 @@
 # LangGraph Framework
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 LangGraph is an open-source library from LangChain Inc. (released January 2024) for building **stateful, multi-actor applications** with LLMs. It extends LangChain by modelling agent workflows as directed graphs with shared state, cycles, branching, and persistence. LangGraph enables patterns impossible with linear chains: loops, human-in-the-loop, recursive refinement, and dynamic multi-agent coordination.

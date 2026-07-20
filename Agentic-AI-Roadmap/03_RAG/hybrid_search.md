@@ -1,5 +1,8 @@
 # Hybrid Search (Dense + Sparse)
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Imagine searching for a recipe. Sparse search is like looking for the exact words "chicken tikka masala" — it finds pages that literally contain those words. Dense search is like remembering a similar recipe you once had — it finds pages that are conceptually related even if they use different words. Hybrid search combines both: it scans for exact keyword matches AND conceptually similar content, then merges the results so you never miss either.
 

@@ -1,5 +1,8 @@
 # FAANG AI/ML Troubleshooting Guide — 50 Production Incident Scenarios
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## GPU & Memory Issues (1-10)
 
 ### 1. GPU Out of Memory (OOM)

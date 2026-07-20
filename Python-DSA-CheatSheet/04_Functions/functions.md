@@ -1,6 +1,6 @@
 # Functions in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 04 — Functions
 > 🔗 Related: [lambda.md](./lambda.md) · [map.md](./map.md) · [filter.md](./filter.md) · [reduce.md](./reduce.md) · [zip.md](./zip.md) · [enumerate.md](./enumerate.md) · Back to [README](../README.md)
 

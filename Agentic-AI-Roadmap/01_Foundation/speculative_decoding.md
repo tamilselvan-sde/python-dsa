@@ -1,5 +1,8 @@
 # Speculative Decoding
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Imagine writing an essay one letter at a time. It's slow. But if you quickly guess the next 5 letters for each step (even if sometimes wrong), and your teacher only verifies your guesses, you might write 3x faster. If a guess is wrong, the teacher corrects it and you continue from there. Speculative decoding is the AI version of this — a fast "draft" model guesses several tokens ahead, and a slow "target" model verifies them in parallel.

@@ -1,5 +1,8 @@
 # FAANG AI/ML Interview Questions — 300 Questions by Level
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## Beginner Level (1–100)
 
 ### Transformers & Attention (1–15)

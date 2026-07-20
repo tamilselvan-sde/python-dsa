@@ -1,5 +1,8 @@
 # vLLM Inference Engine
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 vLLM is an open-source high-performance inference engine for large language models, developed at UC Berkeley. It is purpose-built for serving LLMs with minimal latency and maximum throughput.

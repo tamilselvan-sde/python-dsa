@@ -1,6 +1,6 @@
 # Union-Find (Disjoint Set Union) in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [sorting.md](./sorting.md) · [recursion.md](./recursion.md) · [binary_search.md](./binary_search.md)
 > Data: [graph.md](../06_Graphs/graph.md) · [big_o.md](../08_Time_Complexity/big_o.md)

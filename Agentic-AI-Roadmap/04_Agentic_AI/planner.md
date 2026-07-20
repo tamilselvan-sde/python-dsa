@@ -1,5 +1,8 @@
 # Planning in AI Agents
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Planning in AI agents refers to the reasoning process of decomposing a goal into a sequence of actions. It transforms "what needs to be done" into "how to do it step by step." Major paradigms include ReAct (Reasoning + Acting), Plan-and-Execute (hierarchical decomposition), and Tree-of-Thought (parallel exploration of reasoning paths).
 

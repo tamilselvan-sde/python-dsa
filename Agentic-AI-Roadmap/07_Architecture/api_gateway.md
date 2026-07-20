@@ -1,5 +1,8 @@
 # API Gateway for AI
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 An API Gateway for AI systems is a reverse proxy between clients and AI backends, handling authentication, rate limiting, request routing, caching, prompt inspection, content filtering, and cost tracking — all AI-specific concerns a standard gateway does not address.
 

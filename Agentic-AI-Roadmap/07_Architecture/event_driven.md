@@ -1,5 +1,8 @@
 # Event-Driven Architecture for AI
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Event-Driven Architecture (EDA) for AI uses asynchronous event streams to decouple components — ingestion, embedding, indexing, inference — so they communicate through events rather than direct API calls. Each component produces and consumes events independently.
 

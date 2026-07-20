@@ -1,5 +1,8 @@
 # Transformer Architecture
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Imagine you're reading a sentence. Instead of reading word by word (like older models), you look at ALL words at once and figure out which ones are important to each other. That's a Transformer — it processes everything in parallel and figures out relationships.

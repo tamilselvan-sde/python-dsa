@@ -1,5 +1,8 @@
 # Agentic AI Roadmap — Design Document
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## Overview
 A production-grade Agentic AI learning repository (~150 Markdown files) teaching LLM beginner → Senior AI Engineer → Production Architect.
 

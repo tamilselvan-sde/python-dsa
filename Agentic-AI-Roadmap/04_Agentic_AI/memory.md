@@ -1,5 +1,8 @@
 # Agent Memory
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Agent memory is the system that stores, retrieves, and manages information across an agent's lifecycle. It mirrors human memory: short-term (working memory for current session), long-term (persistent knowledge), and episodic (past experiences and outcomes). RAG-based memory augments this with external knowledge bases.
 

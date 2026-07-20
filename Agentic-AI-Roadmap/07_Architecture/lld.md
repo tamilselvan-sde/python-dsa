@@ -1,5 +1,8 @@
 # Low-Level Design (LLD) for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Low-Level Design for AI systems provides detailed specifications for each component — class hierarchies, data structures, algorithms, API contracts, error handling, and implementation patterns. It translates the HLD's component boundaries into concrete, implementable designs.
 

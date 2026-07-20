@@ -1,5 +1,8 @@
 # Weaviate
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Weaviate is an open-source vector database that combines vector search with object storage, GraphQL API, and built-in AI modules for vectorization and generation. It stores both vectors and objects together, eliminating the need for a separate database.
 

@@ -1,6 +1,6 @@
 # Lists in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 02 — Data Types
 > 🔗 Related: [strings.md](./strings.md) · [tuple.md](./tuple.md) · [numbers.md](./numbers.md)
 > Algorithms: [two_pointers.md](../07_Algorithms/two_pointers.md) · [sliding_window.md](../07_Algorithms/sliding_window.md)

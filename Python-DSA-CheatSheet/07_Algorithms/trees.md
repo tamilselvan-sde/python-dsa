@@ -1,6 +1,6 @@
 # Trees in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [linked_list.md](./linked_list.md) · [graph.md](./graph.md) · [stack.md](./stack.md) · [queue.md](./queue.md) · [recursion.md](./recursion.md)
 > OOP: [../05_OOP/classes.md](../05_OOP/classes.md)

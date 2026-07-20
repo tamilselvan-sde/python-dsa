@@ -1,5 +1,8 @@
 # Observability for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Observability for AI systems is the practice of understanding AI system internals by analyzing telemetry data — metrics (quantitative measurements), logs (structured events), and traces (request journeys across services) — enabling teams to debug issues, optimize performance, and understand behavior without deploying new code.
 

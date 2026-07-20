@@ -1,5 +1,8 @@
 # Model Registry — Model Registry and Versioning
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 A Model Registry is a central catalog for managing ML model versions across their lifecycle. It stores model binaries, metadata (metrics, lineage, tags), stage transitions (Staging → Production → Archived), and deployment targets. Think of it as "Docker Hub for ML models" — but with semantic versioning, stage management, and deployment hooks.
 

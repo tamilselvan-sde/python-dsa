@@ -1,5 +1,8 @@
 # KV Cache Offloading
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 KV cache offloading is a memory management technique that moves less-frequently accessed KV cache entries from GPU memory to CPU memory (or NVMe storage) during LLM inference, freeing GPU memory for more important computations.

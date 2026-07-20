@@ -1,5 +1,8 @@
 # AI vs ML vs Deep Learning
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Artificial Intelligence (AI) is the grand idea of machines acting smart. Machine Learning (ML) is teaching machines to learn from data without explicit programming. Deep Learning (DL) is a subset of ML using brain-like neural networks with many layers.

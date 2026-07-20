@@ -1,5 +1,8 @@
 # Positional Encoding
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** If you scramble the words of a sentence, you get nonsense. But self-attention treats "I love you" the same as "you love I" because it sees all words at once without order. Positional encoding is how we tell the model "these words were in this order" — we add a unique pattern to each word's representation that encodes where it sits in the sequence.

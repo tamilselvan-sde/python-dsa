@@ -1,5 +1,8 @@
 # GPU Scheduling for AI
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 GPU scheduling is the allocation and management of GPU resources (cores, memory, bandwidth) across AI workloads — ensuring that training jobs and inference services get the right GPU type (A100, H100, T4) with appropriate isolation, and that GPU memory is not wasted.
 

@@ -1,6 +1,6 @@
 # Hash Map in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [stack.md](./stack.md) · [queue.md](./queue.md) · [linked_list.md](./linked_list.md) · [trees.md](./trees.md) · [graph.md](./graph.md)
 > Data: [dict.md](../02_Data_Types/dict.md) · [counter.md](../06_Collections/counter.md) · [deque.md](../06_Collections/deque.md)

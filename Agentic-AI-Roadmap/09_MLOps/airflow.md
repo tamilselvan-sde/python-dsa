@@ -1,5 +1,8 @@
 # Airflow for ML Pipelines
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Apache Airflow is a DAG-based workflow orchestrator where pipelines are defined as Python code. Each DAG (Directed Acyclic Graph) consists of Tasks connected by dependencies. Airflow handles scheduling, retries, failure alerts, and execution on distributed workers — making it the industry standard for batch ML pipeline orchestration.
 

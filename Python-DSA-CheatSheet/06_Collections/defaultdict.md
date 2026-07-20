@@ -1,6 +1,6 @@
 # collections.defaultdict
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 06 — Collections
 > 🔗 Related: [counter.md](./counter.md) · [deque.md](./deque.md) · [heapq.md](./heapq.md) · [../02_Data_Types/dictionary.md](../02_Data_Types/dictionary.md)
 > Back to [README](../README.md)

@@ -1,5 +1,8 @@
 # Ollama Local LLM Runner
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Ollama is a user-friendly, open-source tool for running large language models locally on consumer hardware. It wraps model weights, configuration, and dependencies into single portable packages called Modelfiles.

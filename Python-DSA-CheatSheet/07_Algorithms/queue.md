@@ -1,6 +1,6 @@
 # Queue in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [stack.md](./stack.md) · [hash_map.md](./hash_map.md) · [graph.md](./graph.md) · [bfs.md](./bfs.md)
 > Data: [list.md](../02_Data_Types/list.md) · [deque.md](../06_Collections/deque.md) · [heapq.md](../06_Collections/heapq.md)

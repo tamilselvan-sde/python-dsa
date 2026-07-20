@@ -1,5 +1,8 @@
 # High-Level Design (HLD) for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 High-Level Design for AI systems defines the architectural blueprint — system components, data flow, technology stack, scalability strategy, and integration points. It answers WHAT the system does and WHICH components interact, without detailing HOW each component works internally.
 

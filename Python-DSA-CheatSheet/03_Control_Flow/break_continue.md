@@ -1,6 +1,6 @@
 # break, continue, pass — Loop Control Statements
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 03 — Control Flow
 > 🔗 Related: [if_else.md](./if_else.md) · [for_loop.md](./for_loop.md) · [while_loop.md](./while_loop.md) · Back to [README](../README.md)
 

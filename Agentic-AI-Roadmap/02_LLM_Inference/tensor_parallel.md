@@ -1,5 +1,8 @@
 # Tensor Parallelism
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Tensor parallelism splits individual model layers (specifically the weight matrices) across multiple GPUs, so each GPU holds a shard of every layer. During inference, GPUs compute their shards in parallel and synchronize via all-reduce operations.

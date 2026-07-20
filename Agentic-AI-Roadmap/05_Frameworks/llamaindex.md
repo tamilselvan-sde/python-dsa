@@ -1,5 +1,8 @@
 # LlamaIndex Framework
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 LlamaIndex (formerly GPT Index) is an open-source data framework for LLM applications, released in November 2022 by Jerry Liu. It specialises in connecting LLMs to external data through a comprehensive ingestion, indexing, and retrieval pipeline. LlamaIndex provides data connectors for 150+ sources (PDFs, databases, APIs, Slack, Confluence), advanced chunking strategies, hybrid search, and query engines that synthesise answers from retrieved context. It is the leading framework for production Retrieval-Augmented Generation (RAG) systems.

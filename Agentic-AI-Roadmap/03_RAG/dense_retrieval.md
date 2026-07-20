@@ -1,5 +1,8 @@
 # Dense Retrieval
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Dense retrieval is like using a really smart librarian who doesn't just look for exact words — they understand the meaning behind your question. If you ask for "vehicles that run on electricity," they'll find documents about "EVs" and "electric cars" even though none of those exact words match. They do this by mentally converting everything into a "thought vector" and finding the closest matches.
 

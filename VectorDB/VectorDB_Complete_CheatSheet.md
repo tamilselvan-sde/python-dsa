@@ -1,5 +1,8 @@
 # Vector Database Complete Guide
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 > **The Single Most Comprehensive Beginner-to-Advanced Guide on Vector Databases**
 >
 > Covers: Embeddings · Similarity Search · ANN Algorithms · HNSW · IVF · Product Quantization · RAG Pipelines · Production Architecture · 100+ Interview Questions

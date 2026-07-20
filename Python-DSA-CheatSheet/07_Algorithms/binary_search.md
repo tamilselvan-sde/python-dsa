@@ -1,6 +1,6 @@
 # Binary Search in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [searching.md](./searching.md) · [sorting.md](./sorting.md) · [recursion.md](./recursion.md) · [two_pointers.md](./two_pointers.md)
 > Data: [list.md](../02_Data_Types/list.md) · [big_o.md](../08_Time_Complexity/big_o.md)

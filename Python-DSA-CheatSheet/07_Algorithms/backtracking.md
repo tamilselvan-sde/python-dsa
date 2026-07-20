@@ -1,6 +1,6 @@
 # Backtracking in Python (DETAILED)
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [recursion.md](./recursion.md) · [sorting.md](./sorting.md) · [sliding_window.md](./sliding_window.md)
 > Data: [big_o.md](../08_Time_Complexity/big_o.md)

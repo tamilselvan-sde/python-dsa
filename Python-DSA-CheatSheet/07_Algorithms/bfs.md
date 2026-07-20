@@ -1,6 +1,6 @@
 # Breadth-First Search (BFS) in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 07 — Algorithms
 > 🔗 Related: [dfs.md](./dfs.md) · [recursion.md](./recursion.md) · [Trees](../05_OOP/classes.md) · [Graphs](./searching.md)
 > Data: [list.md](../02_Data_Types/list.md) · [deque](../06_Collections/heapq.md) · [big_o.md](../08_Time_Complexity/big_o.md)

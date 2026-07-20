@@ -1,5 +1,8 @@
 # PagedAttention
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 PagedAttention is a memory management technique for transformer inference that organizes the KV cache into fixed-size blocks and uses a block table to map logical cache indices to physical memory locations — analogous to how operating systems manage virtual memory with pages.

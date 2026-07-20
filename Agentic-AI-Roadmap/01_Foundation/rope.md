@@ -1,5 +1,8 @@
 # Rotary Position Embedding (RoPE)
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** Imagine you have a compass needle that points to word positions. As you move along a sentence, the needle rotates. RoPE does this for AI — it rotates the Query and Key vectors by an angle proportional to their position. Words that are close together have similar rotation angles; far apart words have very different angles. The model can "feel" the distance between words by comparing their rotation.

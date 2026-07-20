@@ -1,6 +1,6 @@
 # Encapsulation in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 05 — OOP
 > 🔗 Related: [classes.md](classes.md), [objects.md](objects.md), [inheritance.md](inheritance.md), [polymorphism.md](polymorphism.md) · Back to [README](../README.md)
 

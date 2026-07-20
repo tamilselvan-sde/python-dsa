@@ -1,5 +1,8 @@
 # Query Rewriting / Expansion
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Imagine you ask a friend "Where's the thing?" and they have no idea what you mean. But if you first clarify your own question — "Where did I put my car keys?" — they can help. Query rewriting is like that: it takes a vague, short, or ambiguous user query and turns it into a clearer, more search-friendly version before looking up documents.
 

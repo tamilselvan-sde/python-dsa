@@ -1,5 +1,8 @@
 # Docker for AI Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Docker containers for AI package applications with all dependencies — Python version, CUDA libraries, model weights, system packages — into portable images that run identically across dev, staging, and production environments.
 

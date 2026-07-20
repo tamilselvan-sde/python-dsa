@@ -1,5 +1,8 @@
 # Retrieval Augmented Generation (RAG)
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Imagine you're taking an open-book exam. Instead of memorizing everything (like a regular LLM), you're allowed to look up relevant pages from a textbook before answering each question. RAG is exactly that — it gives an LLM access to a knowledge base so it can look up facts before generating an answer.
 

@@ -1,6 +1,6 @@
 # Big-O Time & Space Complexity in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 08 — Time Complexity
 > 🔗 Related: [prefix_sum.md](../07_Algorithms/prefix_sum.md) · [two_pointers.md](../07_Algorithms/two_pointers.md) · [sliding_window.md](../07_Algorithms/sliding_window.md) · [sorting.md](../07_Algorithms/sorting.md) · [binary_search.md](../07_Algorithms/binary_search.md) · [interview_patterns.md](../09_FAANG_Patterns/interview_patterns.md)
 > Back to [README](../README.md)

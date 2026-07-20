@@ -1,6 +1,6 @@
 # map() in Python
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 04 — Functions
 > 🔗 Related: [functions.md](./functions.md) · [lambda.md](./lambda.md) · [filter.md](./filter.md) · [reduce.md](./reduce.md) · [zip.md](./zip.md) · Back to [README](../README.md)
 

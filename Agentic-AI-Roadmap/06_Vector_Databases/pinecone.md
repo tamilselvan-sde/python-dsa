@@ -1,5 +1,8 @@
 # Pinecone
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Pinecone is a fully managed, cloud-native vector database that handles infrastructure, scaling, and operations. It provides a simple API for storing and querying vectors with built-in pod-based compute isolation, metadata filtering, and serverless scaling.
 

@@ -1,5 +1,8 @@
 # Metadata Filtering
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Imagine you're searching for a book in a massive library. Instead of searching every shelf, you first filter by floor "2nd floor → Non-fiction section → Computer Science aisle." That's metadata filtering — you narrow down where to search before you even start looking. In a RAG system, metadata filtering lets you attach labels to documents (date, author, category, tags) and then use those labels to pre-filter which documents get searched.
 

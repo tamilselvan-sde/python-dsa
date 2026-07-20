@@ -1,5 +1,8 @@
 # Microsoft Semantic Kernel
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 Semantic Kernel (SK) is an open-source SDK developed by Microsoft (released March 2023) that enables AI orchestration through **orchestrating functions, plugins, and memories** around LLMs. It provides a lightweight, enterprise-focused framework for building AI agents that can call plugins, manage state, and integrate deeply with the Microsoft ecosystem (Azure, Microsoft 365, Copilot). SK supports C#, Python, and Java — uniquely positioning it as the go-to framework for .NET enterprises.

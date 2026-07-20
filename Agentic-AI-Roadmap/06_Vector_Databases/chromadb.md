@@ -1,5 +1,8 @@
 # ChromaDB
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 ChromaDB is an open-source, embeddable vector database designed specifically for AI applications. It provides a lightweight, developer-friendly way to store, manage, and query vector embeddings with built-in metadata filtering and full-text search capabilities.
 

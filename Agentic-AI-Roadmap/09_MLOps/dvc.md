@@ -1,5 +1,8 @@
 # DVC — Data Version Control
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 DVC (Data Version Control) is an open-source tool that brings Git-like versioning to datasets, ML models, and pipelines. It stores metadata in Git (small `.dvc` files pointing to content-addressed storage) while the actual data lives in remote storage (S3, GCS, HDFS, local). DVC also defines reproducible ML pipelines as directed acyclic graphs (DAGs).
 

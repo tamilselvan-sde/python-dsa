@@ -1,6 +1,6 @@
 # Boolean (bool)
 
-> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 > Section: 02 — Data Types
 > 🔗 Related: [../01_Python_Basics/operators.md](../01_Python_Basics/operators.md), [dictionary.md](./dictionary.md), [set.md](./set.md) · Back to [README](../README.md)
 

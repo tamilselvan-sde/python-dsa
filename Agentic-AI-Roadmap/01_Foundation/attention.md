@@ -1,5 +1,8 @@
 # Attention Mechanism
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 **ELI5:** When you read a sentence, your brain focuses on the most relevant words to understand meaning. For "The dog chased the cat because it was playful," you know "it" refers to "dog," not "cat." Attention is how neural networks do the same thing — they learn which parts of the input are relevant to each other and weigh them accordingly.

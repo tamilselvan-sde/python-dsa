@@ -1,5 +1,8 @@
 # HuggingFace Transformers for Inference
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 HuggingFace Transformers is the de facto standard Python library for working with transformer models — providing a unified API for loading, running, and serving thousands of pre-trained models from the HuggingFace Hub.

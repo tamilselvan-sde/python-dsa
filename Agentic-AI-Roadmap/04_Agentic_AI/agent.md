@@ -1,5 +1,8 @@
 # AI Agents
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ```mermaid
 flowchart TD
     A["👤 User sends a request"] --> B["🧠 Agent receives input"]

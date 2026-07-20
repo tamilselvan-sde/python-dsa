@@ -1,5 +1,8 @@
 # Microsoft AutoGen
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 
 AutoGen is an open-source multi-agent conversation framework developed by Microsoft Research (released August 2023). It enables building LLM applications through **conversational multi-agent coordination** — agents converse with each other to solve tasks, with support for human-in-the-loop, code execution, and tool use. The core idea is that complex tasks are solved not by a single agent, but by multiple specialised agents that talk to each other.

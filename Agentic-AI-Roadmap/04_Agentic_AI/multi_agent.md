@@ -1,5 +1,8 @@
 # Multi-Agent Systems
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Multi-agent systems (MAS) consist of multiple AI agents that collaborate, coordinate, or compete to solve tasks. Agents have specialized roles (researcher, coder, reviewer, orchestrator), communicate through structured message passing, and collectively achieve goals no single agent could. Patterns include orchestrator-worker, swarm, debate, and pipeline.
 

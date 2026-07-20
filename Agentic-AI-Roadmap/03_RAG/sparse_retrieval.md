@@ -1,5 +1,8 @@
 # Sparse Retrieval
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Sparse retrieval is like searching for a book by looking for specific words in the index at the back. If you want "quantum computing," you flip to the Q section and find every page that mentions "quantum" and "computing." It's a literal word match — no interpretation, no synonyms, just pure word counting.
 

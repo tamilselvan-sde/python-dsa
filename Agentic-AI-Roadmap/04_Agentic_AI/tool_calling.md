@@ -1,5 +1,8 @@
 # Tool Calling / Function Calling
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 Tool calling (function calling) is an LLM capability where the model outputs structured JSON requests to invoke external functions. Rather than generating text, the model decides which tool to use, with what arguments, and delegates execution to the runtime. The result is fed back into the conversation loop.
 

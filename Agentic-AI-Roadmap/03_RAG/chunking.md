@@ -1,5 +1,8 @@
 # Document Chunking Strategies
 
+> Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
+>
+
 ## 1. What is it?
 **ELI5:** Imagine a really long book. You can't fit the whole thing in your brain at once. So you tear out chapters, and sometimes paragraphs, to read one at a time. Document chunking is the same — it splits a long document into smaller, manageable pieces before storing them in the knowledge base. Each piece (chunk) gets its own embedding and is searchable independently.
 
