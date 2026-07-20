@@ -56,6 +56,8 @@ Autoregressive decoding is sequential and memory-bandwidth bound:
 
 ## 3. Real-world Example
 
+![Speculative decoding — draft model guesses K tokens, target model verifies them in parallel, accepting those that match its distribution](https://ar5iv.labs.arxiv.org/html/2211.17192/assets/x1.png)
+
 | Company | Target Model | Draft Model | Speedup | Deployment |
 |---------|-------------|-------------|---------|------------|
 | **Google** | PaLM 2 (540B) | ~2B distilled | 2.8x | Vertex AI |

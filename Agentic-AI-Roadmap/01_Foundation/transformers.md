@@ -39,6 +39,10 @@ flowchart LR
 
 **Technical Definition:** A Transformer is a deep learning model that eschews recurrence entirely, relying solely on attention mechanisms to draw global dependencies between input and output. It consists of an encoder stack and a decoder stack, each composed of multi-head self-attention layers and feed-forward networks, with residual connections and layer normalization. The key innovation is that every token can attend to every other token in the sequence, producing a dynamic representation weighted by relevance.
 
+![Original Transformer architecture from Vaswani et al. 2017](https://upload.wikimedia.org/wikipedia/commons/2/23/Attention_Is_All_You_Need_-_Encoder-decoder_Architecture.png)
+
+*The original Transformer architecture showing the encoder stack (left) and decoder stack (right) with multi-head attention and feed-forward networks.*
+
 ## 2. Why do we need it?
 
 **Problem It Solves:**

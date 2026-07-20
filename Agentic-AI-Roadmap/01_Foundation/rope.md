@@ -78,6 +78,8 @@ RoPE solves these because:
 
 ## 3. Real-world Example
 
+![RoPE rotates Query and Key vectors by position-dependent angles, encoding relative position through the rotation matrix](https://ar5iv.labs.arxiv.org/html/2104.09864/assets/x1.png)
+
 | Company | Model | RoPE Configuration | Extended Context |
 |---------|-------|--------------------|------------------|
 | **Meta** | LLaMA 1/2/3 | RoPE with θ=10000 | 2K → 32K (NTK) |

@@ -51,6 +51,8 @@ MoE decouples model capacity from computation cost:
 
 ## 3. Real-world Example
 
+![DeepSeek MoE architecture — router distributes tokens to specialized expert sub-networks](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/DeepSeek_MoE_and_MLA_%28DeepSeek-V2%29.svg/500px-DeepSeek_MoE_and_MLA_%28DeepSeek-V2%29.svg.png)
+
 | Company | Model | Expert Count | Active per Token | Total Params | Active Params |
 |---------|-------|-------------|------------------|--------------|---------------|
 | **OpenAI** | GPT-4 | ~16 (estimated) | ~2 | ~1.8T | ~280B |

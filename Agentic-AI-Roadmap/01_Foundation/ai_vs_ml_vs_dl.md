@@ -27,25 +27,9 @@ flowchart LR
 - **ML (1959 - Arthur Samuel):** "Field of study that gives computers the ability to learn without being explicitly programmed." Algorithms improve performance at some task `T` with experience `E` and performance measure `P`.
 - **DL (2012 - AlexNet breakthrough):** ML algorithms using artificial neural networks with ≥2 hidden layers. Leverages hierarchical feature learning where higher layers learn abstract representations from lower-level features.
 
-**Venn Diagram:**
-```
-┌─────────────────────────────────────────────┐
-│                  AI                          │
-│  ┌─────────────────────────────────┐        │
-│  │             ML                  │         │
-│  │  ┌──────────────────────┐      │         │
-│  │  │        DL            │      │         │
-│  │  │  CNNs  RNNs          │      │         │
-│  │  │  Transformers        │      │         │
-│  │  │  GANs   VAEs         │      │         │
-│  │  └──────────────────────┘      │         │
-│  │  Random Forest  SVM            │         │
-│  │  XGBoost        K-Means       │         │
-│  └─────────────────────────────────┘        │
-│  Expert Systems  Search  Planning           │
-│  Knowledge Graphs  NLP  Computer Vision     │
-└─────────────────────────────────────────────┘
-```
+![AI, ML, DL relationship diagram](https://upload.wikimedia.org/wikipedia/commons/3/3a/AI-ML-DL.png)
+
+*AI is the broadest field, ML is a subset of AI, and Deep Learning is a subset of ML.*
 
 ## 2. Why do we need it?
 

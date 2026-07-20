@@ -46,6 +46,8 @@ Before attention, sequence-to-sequence models used a fixed-size context vector:
 
 ## 3. Real-world Example
 
+![QKV attention mechanism — Query, Key, Value vectors interact to produce attention-weighted output](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Attention_qkv.png/600px-Attention_qkv.png)
+
 | Company | Use Case | Attention Variant | Impact |
 |---------|----------|-------------------|--------|
 | **Google** | Neural Machine Translation (GNMT) | Bahdanau attention | 60% improvement in translation quality |

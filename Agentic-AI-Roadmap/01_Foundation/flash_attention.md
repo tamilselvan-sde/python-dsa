@@ -47,6 +47,8 @@ Standard attention materializes the n×n attention matrix in HBM (slow GPU memor
 
 ## 3. Real-world Example
 
+![FlashAttention tiling — Q, K, V processed in blocks that fit in GPU SRAM, avoiding materialization of the full N×N attention matrix in HBM](https://ar5iv.labs.arxiv.org/html/2205.14135/assets/x1.png)
+
 | Company | Model | Flash Attention Version | Benefit |
 |---------|-------|------------------------|---------|
 | **OpenAI** | GPT-4 | Flash Attention v2 (custom) | 128K context feasible |
