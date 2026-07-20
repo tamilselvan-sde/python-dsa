@@ -504,7 +504,31 @@ def splitArray(nums, k):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["start with sorted array<br/>lo=0, hi=n-1"]
+    Check{"lo <= hi?"}
+    Mid["mid = (lo + hi) // 2"]
+    Found{"a[mid] == target?"}
+    Smaller{"a[mid] < target?"}
+    GoLeft["hi = mid - 1<br/>search left half"]
+    GoRight["lo = mid + 1<br/>search right half"]
+    ReturnMid["return mid"]
+    NotFound["return -1"]
+
+    Start --> Check
+    Check -- yes --> Mid
+    Mid --> Found
+    Found -- yes --> ReturnMid
+    Found -- no --> Smaller
+    Smaller -- yes --> GoRight
+    Smaller -- no --> GoLeft
+    GoRight --> Check
+    GoLeft --> Check
+    Check -- no --> NotFound
+```
 
 ### Narrowing search space
 

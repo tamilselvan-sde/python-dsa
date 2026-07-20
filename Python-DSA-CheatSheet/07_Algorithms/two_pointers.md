@@ -553,7 +553,33 @@ def merge(nums1, m, nums2, n):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["two pointers"]
+    Type{"opposite<br/>or<br/>same direction?"}
+    Opp["opposite directions<br/>L = 0, R = n-1"]
+    Move{"sum == target?"}
+    Hit["return solution"]
+    TooBig["sum > target →<br/>R--"]
+    TooSmall["sum < target →<br/>L++"]
+    Same["same direction<br/>slow = 0, fast = 0"]
+    Fast["fast scans ahead"]
+    Write["write at slow<br/>slow++"]
+
+    Start --> Type
+    Type -- opposite --> Opp
+    Opp --> Move
+    Move -- yes --> Hit
+    Move -- no --> TooBig
+    TooBig --> Opp
+    Move -- no --> TooSmall
+    TooSmall --> Opp
+    Type -- same --> Same
+    Same --> Fast
+    Fast --> Write
+```
 
 ### Opposite-direction pointers on a sorted array (two-sum)
 

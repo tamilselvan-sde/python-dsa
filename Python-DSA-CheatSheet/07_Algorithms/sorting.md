@@ -400,7 +400,28 @@ Auxiliary: stable sorts (merge, Timsort) need O(n) extra; in-place sorts use O(1
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["merge_sort(arr)"]
+    Base{"len(arr) <= 1?"}
+    Return["return arr"]
+    Split["split at middle"]
+    Left["sort left half<br/>merge_sort(left)"]
+    Right["sort right half<br/>merge_sort(right)"]
+    Merge["merge sorted halves"]
+    Done["return merged result"]
+
+    Start --> Base
+    Base -- yes --> Return
+    Base -- no --> Split
+    Split --> Left
+    Split --> Right
+    Left --> Merge
+    Right --> Merge
+    Merge --> Done
+```
 
 ### Unsorted → sorted
 

@@ -432,7 +432,18 @@ def countComponents(n, edges):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart LR
+    N0["(0)"] --- N1["(1)"]
+    N0 --- N2["(2)"]
+    N1 --- N3["(3)"]
+    N1 --- N2
+    N2 --- N3
+    N2 --- N4["(4)"]
+    N3 --- N4
+```
 
 ### Graph as nodes + edges
 

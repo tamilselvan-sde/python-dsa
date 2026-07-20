@@ -305,7 +305,29 @@ If you can construct **any** input where greedy falls short of optimal → greed
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["greedy(items)"]
+    Sort["sort items by<br/>greedy criterion"]
+    Init["init answer"]
+    Loop{"items left?"}
+    Pick["pick locally<br/>best option"]
+    Feasible{"does it<br/>fit / work?"}
+    Add["add to answer"]
+    Done["return answer"]
+
+    Start --> Sort
+    Sort --> Init
+    Init --> Loop
+    Loop -- yes --> Pick
+    Pick --> Feasible
+    Feasible -- yes --> Add
+    Add --> Loop
+    Feasible -- no --> Loop
+    Loop -- no --> Done
+```
 
 **Interval greedy choice — sort by end, take earliest end:**
 

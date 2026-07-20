@@ -287,9 +287,17 @@ print(nextGreaterElement([4,1,2], [1,3,4,2]))   # [-1, 3, -1]
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
 
 ### Stack push/pop
+
+```mermaid
+flowchart LR
+    Push["push(x)<br/>add to top"]
+    Pop["pop()<br/>remove from top"]
+    Stack["Stack<br/>LIFO<br/>Last In, First Out"]
+    Push --> Stack --> Pop
+```
 
 ```
    push 3                          pop

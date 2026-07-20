@@ -455,9 +455,20 @@ Edge case: A trie of N identical words "aaa...a" uses only L+1 nodes, not N·L.
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
 
 ### Building a trie of "cat", "car", "dog"
+
+```mermaid
+flowchart TD
+    Root["root"] --> C["c"]
+    C --> A["a"]
+    A --> T["t ◉"]
+    A --> R["r ◉"]
+    Root --> D["d"]
+    D --> O["o"]
+    O --> G["g ◉"]
+```
 
 **Step 1 — insert "cat":**
 ```

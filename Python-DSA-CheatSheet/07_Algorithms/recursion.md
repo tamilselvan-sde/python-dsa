@@ -426,7 +426,22 @@ rec([], [F F F])
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["rec(input)"]
+    Base{"is input<br/>base case?"}
+    ReturnBase["return trivial answer"]
+    Shrink["shrink input →<br/>rec(smaller_input)"]
+    Combine["combine result<br/>→ return answer"]
+
+    Start --> Base
+    Base -- yes --> ReturnBase
+    Base -- no --> Shrink
+    Shrink --> Combine
+    Combine --> Base
+```
 
 ### Call stack for `factorial(4)`
 

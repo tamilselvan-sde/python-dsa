@@ -349,9 +349,14 @@ def subarraySum(nums, k):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
 
 ### Hash table buckets
+
+```mermaid
+flowchart LR
+    Key["key"] --> Hash["hash(key)"] --> Index["index = hash % size"] --> Bucket["bucket[index]<br/>store (key, value)"]
+```
 
 ```
             +----------+----------+

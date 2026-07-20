@@ -515,7 +515,28 @@ def maxCoins(nums):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["DP problem"]
+    Check{"has optimal<br/>substructure?"}
+    Check2{"has overlapping<br/>subproblems?"}
+    NoDP["not a DP problem<br/>use greedy / divide & conquer"]
+    Choose{"top-down<br/>or<br/>bottom-up?"}
+    TD["top-down (memoization)<br/>recursion + cache"]
+    BU["bottom-up (tabulation)<br/>iterative table fill"]
+    Memo["store result in memo[n]<br/>so each subproblem<br/>is solved once"]
+
+    Start --> Check
+    Check -- no --> NoDP
+    Check -- yes --> Check2
+    Check2 -- no --> NoDP
+    Check2 -- yes --> Choose
+    Choose -- top-down --> TD
+    Choose -- bottom-up --> BU
+    TD --> Memo
+```
 
 **Overlapping subproblems tree for `climbStairs(5)`**:
 

@@ -376,7 +376,27 @@ def generateParenthesis(n):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["backtrack(path, choices)"]
+    Complete{"is path<br/>complete?"}
+    Save["save solution<br/>(path copy)"]
+    Valid{"is choice<br/>valid?"}
+    Prune["✂️ prune —<br/>skip this branch"]
+    Choose["CHOOSE:<br/>add option to path"]
+    Recurse["RECURSE:<br/>backtrack(path, next)"]
+    Undo["UNDO:<br/>remove option from path"]
+
+    Start --> Complete
+    Complete -- yes --> Save
+    Complete -- no --> Valid
+    Valid -- no --> Prune
+    Valid -- yes --> Choose
+    Choose --> Recurse
+    Recurse --> Undo
+```
 
 **Generic DFS over decision tree** (backtracking skeleton):
 

@@ -500,7 +500,29 @@ def maxSlidingWindow(nums, k):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["sliding_window(arr)"]
+    Init["L = 0, R = 0<br/>window = []"]
+    Loop{"R < n?"}
+    Expand["add arr[R] to window<br/>(expand right)"]
+    Shrink{"window<br/>invalid?"}
+    Contract["remove arr[L] from window<br/>L++ (shrink left)"]
+    Update["update best result"]
+    Done["return best result"]
+
+    Start --> Init
+    Init --> Loop
+    Loop -- yes --> Expand
+    Expand --> Shrink
+    Shrink -- yes --> Contract
+    Contract --> Shrink
+    Shrink -- no --> Update
+    Update --> Loop
+    Loop -- no --> Done
+```
 
 ### Fixed window sliding over an array
 

@@ -350,7 +350,23 @@ Linear answer: scan until first element ≥ target. The interview-grading answer
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["need to find x in collection"]
+    Sorted{"collection<br/>sorted?"}
+    Hashable{"hashable<br/>items?"}
+    UseSet["use set/dict<br/>O(1) lookup"]
+    UseBin["use binary search<br/>(bisect)<br/>O(log n)"]
+    UseLin["use linear scan<br/>or build set first<br/>O(n)"]
+
+    Start --> Sorted
+    Sorted -- yes --> Hashable
+    Hashable -- yes --> UseSet
+    Hashable -- no --> UseBin
+    Sorted -- no --> UseLin
+```
 
 ### Linear search versus binary search
 

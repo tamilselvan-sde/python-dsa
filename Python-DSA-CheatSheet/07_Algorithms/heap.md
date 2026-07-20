@@ -358,9 +358,21 @@ print(findKthLargest([3,2,3,1,2,4,5,5,6], 4))  # 4
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
 
 ### Heap as binary tree vs as flat list
+
+```mermaid
+flowchart TD
+    subgraph Tree["Min-Heap as Tree"]
+        T1["1"] --> T2["3"]
+        T1 --> T3["6"]
+        T2 --> T4["5"]
+        T2 --> T5["9"]
+        T3 --> T6["8"]
+        T3 --> T7["7"]
+    end
+```
 
 ```
 Tree:                          List (0-indexed):

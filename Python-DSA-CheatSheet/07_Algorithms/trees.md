@@ -395,9 +395,18 @@ def lowestCommonAncestor(root, p, q):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
 
 ### Binary tree
+
+```mermaid
+flowchart TD
+    R["1 (root)"] --> L["2"]
+    R --> R2["3"]
+    L --> LL["4"]
+    L --> LR["5"]
+    R2 --> R2R["6"]
+```
 
 ```
                root

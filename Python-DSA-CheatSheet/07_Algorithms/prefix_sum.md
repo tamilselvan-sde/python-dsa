@@ -401,7 +401,21 @@ def findMaxLength(nums):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["build prefix array"]
+    Build["pref[0] = 0<br/>for i in range(n):<br/>    pref[i+1] = pref[i] + a[i]"]
+    Query["query range [l, r]"]
+    Formula["sum = pref[r+1] - pref[l]"]
+    Result["O(1) per query<br/>O(n) precomputation"]
+
+    Start --> Build
+    Build --> Query
+    Query --> Formula
+    Formula --> Result
+```
 
 ### Original vs prefix
 

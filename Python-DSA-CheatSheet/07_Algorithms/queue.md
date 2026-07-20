@@ -335,9 +335,17 @@ class MyCircularQueue:
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
 
 ### Enqueue / dequeue
+
+```mermaid
+flowchart LR
+    Enq["enqueue(x)<br/>add to rear"]
+    Deq["dequeue()<br/>remove from front"]
+    Queue["Queue<br/>FIFO<br/>First In, First Out"]
+    Enq --> Queue --> Deq
+```
 
 ```
             enqueue right (append)        dequeue from left (popleft)

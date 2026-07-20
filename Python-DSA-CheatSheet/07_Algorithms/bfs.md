@@ -346,7 +346,32 @@ For trees: O(n) time, O(w) space where w = max width.
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["BFS(start)"]
+    Init["visited = {start}<br/>queue = [start]"]
+    Empty{"queue empty?"}
+    Pop["node = queue.popleft()"]
+    Process["process node"]
+    Neighbors["for each neighbor"]
+    Visited{"already<br/>visited?"}
+    Skip["skip"]
+    Mark["mark visited<br/>queue.append(neighbor)"]
+
+    Start --> Init
+    Init --> Empty
+    Empty -- no --> Pop
+    Pop --> Process
+    Process --> Neighbors
+    Neighbors --> Visited
+    Visited -- yes --> Skip
+    Visited -- no --> Mark
+    Mark --> Empty
+    Skip --> Empty
+    Empty -- yes --> Done["done"]
+```
 
 ### Wave-by-wave BFS on a graph
 

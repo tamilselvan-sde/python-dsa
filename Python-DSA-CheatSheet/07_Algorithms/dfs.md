@@ -352,7 +352,26 @@ print(numIslands(grid))
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["DFS(node, visited)"]
+    Visit["visit / process node"]
+    Mark["mark node as visited"]
+    Neighbors["for each neighbor"]
+    Check{"neighbor<br/>visited?"}
+    Skip["skip"]
+    Recurse["DFS(neighbor, visited)"]
+
+    Start --> Visit
+    Visit --> Mark
+    Mark --> Neighbors
+    Neighbors --> Check
+    Check -- yes --> Skip
+    Check -- no --> Recurse
+    Recurse --> Neighbors
+```
 
 ### Depth-first traversal arrows on a tree
 

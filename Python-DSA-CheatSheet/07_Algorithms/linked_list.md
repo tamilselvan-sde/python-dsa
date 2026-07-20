@@ -431,9 +431,16 @@ def reverseKGroup(head, k):
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
 
 ### Singly linked list
+
+```mermaid
+flowchart LR
+    Head["head"]
+    N1["[1]"] --> N2["[2]"] --> N3["[3]"] --> N4["[4]"] --> N5["[5]"] --> None["None"]
+    Head --> N1
+```
 
 ```
     head                                              tail

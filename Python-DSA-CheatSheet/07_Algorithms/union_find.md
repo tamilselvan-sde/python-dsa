@@ -271,7 +271,32 @@ Space: **O(n)** for the two arrays.
 
 ---
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["union(x, y)"]
+    FindX["rx = find(x)"]
+    FindY["ry = find(y)"]
+    Same{"rx == ry?"}
+    Already["already same set<br/>return False"]
+    RankCheck{"rank[rx] < rank[ry]?"}
+    Swap["swap(rx, ry)"]
+    Attach["parent[ry] = rx"]
+    Bump["if rank same:<br/>rank[rx]++"]
+    Count["count--<br/>return True"]
+
+    Start --> FindX
+    FindX --> FindY
+    FindY --> Same
+    Same -- yes --> Already
+    Same -- no --> RankCheck
+    RankCheck -- yes --> Swap
+    Swap --> Attach
+    RankCheck -- no --> Attach
+    Attach --> Bump
+    Bump --> Count
+```
 
 **Two trees being merged with union-by-rank:**
 
