@@ -289,7 +289,27 @@ Skill of note: `enumerate` + dict guard via `if partner in seen`. A classic O(n)
 | Nested `for`s over m×n matrix | O(m·n) | O(1) |
 | `for-else` overhead | O(1) extra | O(1) |
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["for item in iterable:"]
+    Check{"items left?"}
+    Body["run body<br/>(item)"]
+    BreakCheck{"break?"}
+    ElseBlock["run else block<br/>(only if no break)"]
+    BreakExit["break exits loop"]
+    End["end"]
+
+    Start --> Check
+    Check -- yes --> Body
+    Body --> BreakCheck
+    BreakCheck -- no --> Check
+    BreakCheck -- yes --> BreakExit
+    Check -- no --> ElseBlock
+    ElseBlock --> End
+    BreakExit --> End
+```
 
 ```
             ┌──────────────────────────────────────────┐
