@@ -263,7 +263,24 @@ The single `if i != j and nums[j] < nums[i]` line demonstrates short-circuit `an
 | `match-case` over N cases | O(N) worst (compiler optimizations vary) | O(1) |
 | Chained comparison `a < b < c` | O(1) for scalars | O(1) |
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["Python sees: if / elif / else"]
+    Cond1{"if condition<br/>is True?"}
+    Body1["run if body<br/>✅ then skip rest"]
+    Cond2{"elif condition<br/>is True?"}
+    Body2["run elif body<br/>✅ then skip rest"]
+    ElseBody["run else body<br/>(catch-all)"]
+    End["continue program"]
+
+    Start --> Cond1
+    Cond1 -- yes --> Body1 --> End
+    Cond1 -- no --> Cond2
+    Cond2 -- yes --> Body2 --> End
+    Cond2 -- no --> ElseBody --> End
+```
 
 ```
                 ┌──────────────────┐

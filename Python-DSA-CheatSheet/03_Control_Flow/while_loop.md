@@ -257,7 +257,24 @@ See [../07_Algorithms/binary_search.md](../07_Algorithms/binary_search.md) for f
 | Newton's method (numerical) | O(log (1/eps)) iterations to fixed point | O(1) | sqrt, root finds |
 | Nested `while` outer+inner | O(n × m) worst | O(1) | matrix scan |
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["while condition:"]
+    Check{"condition is<br/>True?"}
+    Body["run body<br/>(must change state<br/>so condition becomes False)"]
+    Loop["go back and<br/>re-check condition"]
+    ElseBlock["run else block<br/>(only if no break)"]
+    End["exit loop"]
+
+    Start --> Check
+    Check -- yes --> Body
+    Body --> Loop
+    Loop --> Check
+    Check -- no --> ElseBlock
+    ElseBlock --> End
+```
 
 ```
         ┌────────────────────────────────┐

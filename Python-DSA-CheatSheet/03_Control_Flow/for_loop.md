@@ -294,21 +294,21 @@ Skill of note: `enumerate` + dict guard via `if partner in seen`. A classic O(n)
 ```mermaid
 flowchart TD
     Start["for item in iterable:"]
-    Check{"items left?"}
-    Body["run body<br/>(item)"]
-    BreakCheck{"break?"}
-    ElseBlock["run else block<br/>(only if no break)"]
-    BreakExit["break exits loop"]
-    End["end"]
+    Check{"any items<br/>left?"}
+    Body["run body<br/>with current item"]
+    Next["get next item<br/>➜ go back"]
+    BreakCheck{"break<br/>statement?"}
+    Exit["break exits loop<br/>immediately"]
+    ElseBlock["run else block<br/>(only if loop ends naturally<br/>without break)"]
+    Done["done"]
 
     Start --> Check
     Check -- yes --> Body
     Body --> BreakCheck
-    BreakCheck -- no --> Check
-    BreakCheck -- yes --> BreakExit
-    Check -- no --> ElseBlock
-    ElseBlock --> End
-    BreakExit --> End
+    BreakCheck -- no --> Next
+    Next --> Check
+    BreakCheck -- yes --> Exit --> Done
+    Check -- no --> ElseBlock --> Done
 ```
 
 ```

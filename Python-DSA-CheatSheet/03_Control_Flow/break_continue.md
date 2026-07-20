@@ -308,7 +308,26 @@ Here `if nums[idx] > 0` is effectively a continue-guard — only flip once. (Thi
 | Exception-as-break | O(stack height) in CPython | O(stack height) |
 | Linear search early break | O(k) on hit, O(n) worst | O(1) |
 
-## 15. Visual Diagram (ASCII)
+## 15. Visual Diagram (ASCII + Mermaid)
+
+```mermaid
+flowchart TD
+    Start["loop iteration starts"]
+    ContinueStmt{"continue?"}
+    SkipRest["skip rest of body<br/>jump to next iteration"]
+    Body["run body normally"]
+    BreakStmt{"break?"}
+    Exit["exit loop immediately<br/>(skip else block)"]
+    NaturalEnd["loop ends naturally<br/>➜ run else block"]
+    End["done"]
+
+    Start --> ContinueStmt
+    ContinueStmt -- yes --> SkipRest
+    ContinueStmt -- no --> Body
+    Body --> BreakStmt
+    BreakStmt -- yes --> Exit --> End
+    BreakStmt -- no --> NaturalEnd --> End
+```
 
 ```
    ┌─────────────────────────────────────────────────┐
@@ -341,7 +360,7 @@ Inner loop break only escapes one layer:
    for outer in A:        ◀── outer loop
      for inner in B:      ◀── inner loop
         if cond: break    ◀── only exits inner "for inner in B"
-     # outer continues here
+   # outer continues here
 ```
 
 ## 16. Beginner Notes
