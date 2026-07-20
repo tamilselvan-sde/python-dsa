@@ -20,6 +20,8 @@ Key ideas:
 - **Dynamic binding** — the same name can be re-pointed to a different type later.
 - Every value is an **object** with an identity, a type, and a value.
 
+![Variables as sticky notes - Python variable points to an object like a name tag](https://csiro-data-school.github.io/python/fig/python-sticky-note-variables-01.svg)
+
 ## 2. Why do we use it?
 
 We use variables to:
@@ -110,6 +112,8 @@ x = x + 1
 | 3    | 6   | 5   | `x + 1` creates new object `6`; `y` is unchanged |
 
 **Why is `y` still 5?** Ints are **immutable**. `x + 1` doesn't modify the `5` object — it creates a new `6` object, and `x` is re-pointed to it. `y` still points to the original `5`.
+
+![Memory rebinding: x=5, y=x, x=x+1 visualized](https://raw.githubusercontent.com/bterwijn/memory_graph/main/images/rebinding1.png)
 
 ## 7. Built-in Methods
 
@@ -297,6 +301,8 @@ print(a == c)   # True  — values are equal
      a is b  => True           a is c => False           a == c => True
      (same identity)            (different identity)      (same value)
 ```
+
+![Identity vs equality memory diagram](https://raw.githubusercontent.com/bterwijn/memory_graph/main/images/rebinding2.png)
 
 ## 16. Beginner Notes
 
