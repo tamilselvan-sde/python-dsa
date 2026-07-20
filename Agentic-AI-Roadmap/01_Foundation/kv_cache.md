@@ -4,6 +4,21 @@
 
 **ELI5:** Imagine you're writing a story one word at a time. Every time you add a new word, you need to remember what you wrote before. Before KV cache, you'd re-read the entire story from scratch for each new word. With KV cache, you keep a running notebook of what matters — when you add "the," you only figure out what's new, without re-reading everything.
 
+```mermaid
+flowchart TD
+    subgraph Without["Without KV Cache"]
+        T1["Token 1: compute K,V<br/>for token 1"] --> T2["Token 2: recompute K,V<br/>for tokens 1+2"]
+        T2 --> T3["Token 3: recompute K,V<br/>for tokens 1+2+3"]
+        T3 --> Slow["...each step redoes<br/>ALL previous work<br/>O(n³) total"]
+    end
+
+    subgraph With["With KV Cache"]
+        C1["Token 1: compute K,V<br/>→ cache them"] --> C2["Token 2: compute only<br/>new token's Q,K,V<br/>→ reuse cached K,V"]
+        C2 --> C3["Token 3: compute only<br/>new token's Q,K,V<br/>→ reuse cached K,V"]
+        C3 --> Fast["Each step is O(n)<br/>instead of O(n²)<br/>325x faster!"]
+    end
+```
+
 **Simple Explanation:** KV Cache stores the Key and Value tensors from previous tokens in the autoregressive generation process. Instead of recomputing attention for the entire sequence at each step, we cache the K and V matrices from earlier tokens and only compute Q, K, V for the new token. This reduces the per-step computation from O(n²) to O(n) for the attention matrix size.
 
 **Technical Definition:** In autoregressive Transformer decoding, at time step t, the model computes attention over all t tokens seen so far. Without caching, this requires O(t² · d) computation. KV cache stores the key and value projections from previous steps in GPU memory, so only the newest token's projections need computation. The attention computation becomes O(t · d) per step instead of O(t² · d), but memory grows as O(t · d · n_layers). For a 70B parameter model with 4096 token context, the KV cache requires ~40GB of GPU memory.

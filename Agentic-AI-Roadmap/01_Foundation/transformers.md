@@ -4,6 +4,37 @@
 
 **ELI5:** Imagine you're reading a sentence. Instead of reading word by word (like older models), you look at ALL words at once and figure out which ones are important to each other. That's a Transformer — it processes everything in parallel and figures out relationships.
 
+```mermaid
+flowchart LR
+    Input["Input tokens"] --> Emb["Embedding<br/>+ Positional Encoding"]
+    Emb --> Encoder["Encoder Stack<br/>(N layers)"]
+
+    subgraph EncLayer["Each Encoder Layer"]
+        MHA1["Multi-Head<br/>Self-Attention"]
+        FFN1["Feed-Forward<br/>Network"]
+        MHA1 --> FFN1
+    end
+
+    Encoder --> EncOut["Encoded<br/>representation"]
+    EncOut --> Cross["Cross-Attention"]
+
+    OutputEmb["Output tokens<br/>(shifted right)"] --> DecEmb["Embedding<br/>+ Positional Encoding"]
+    DecEmb --> Decoder["Decoder Stack<br/>(N layers)"]
+
+    subgraph DecLayer["Each Decoder Layer"]
+        MHA2["Masked<br/>Self-Attention"]
+        CA["Cross-Attention"]
+        FFN2["Feed-Forward<br/>Network"]
+        MHA2 --> CA
+        CA --> FFN2
+    end
+
+    Cross --> Decoder
+    Decoder --> Linear["Linear layer"]
+    Linear --> SM2["softmax"]
+    SM2 --> Output["Output<br/>probabilities"]
+```
+
 **Simple Explanation:** The Transformer is a neural network architecture introduced in the 2017 paper "Attention Is All You Need" by Vaswani et al. from Google Brain. Instead of processing sequences step-by-step (like RNNs/LSTMs), it uses a mechanism called self-attention to process all tokens simultaneously, enabling parallel computation and capturing long-range dependencies.
 
 **Technical Definition:** A Transformer is a deep learning model that eschews recurrence entirely, relying solely on attention mechanisms to draw global dependencies between input and output. It consists of an encoder stack and a decoder stack, each composed of multi-head self-attention layers and feed-forward networks, with residual connections and layer normalization. The key innovation is that every token can attend to every other token in the sequence, producing a dynamic representation weighted by relevance.

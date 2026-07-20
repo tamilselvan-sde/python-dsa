@@ -4,6 +4,15 @@
 
 **ELI5:** Imagine you're reading "The animal didn't cross the street because it was too tired." To understand what "it" refers to, you look back at "animal" and "street" and figure the most relevant one is "animal." Self-attention does this for EVERY word in a sentence simultaneously — each word looks at every other word to understand the context.
 
+```mermaid
+flowchart LR
+    Input["Input sequence<br/>X = (x₁, x₂, ..., xₙ)"] --> QKV["Q = X · W_Q<br/>K = X · W_K<br/>V = X · W_V"]
+    QKV --> Scores["Q × K^T ÷ √d<br/>Relevance scores<br/>between every pair"]
+    Scores --> SM["softmax<br/>Normalize scores<br/>to probabilities (0-1)"]
+    SM --> Weighted["SM × V<br/>Weighted sum of values<br/>by relevance"]
+    Weighted --> Output["Context-aware output<br/>for each token<br/>(attends to all others)"]
+```
+
 **Simple Explanation:** Self-attention is an attention mechanism where queries, keys, and values all come from the same source. For each token in a sequence, self-attention computes its relationship to every other token, producing a context-aware representation of each token. It's the core innovation of the Transformer architecture.
 
 **Technical Definition:** Self-attention (also called intra-attention) is an attention mechanism that relates different positions within a single sequence to compute a representation of the sequence. Given an input sequence X = (x₁, x₂, ..., xₙ), self-attention computes:

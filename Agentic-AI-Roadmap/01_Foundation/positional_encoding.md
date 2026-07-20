@@ -4,6 +4,29 @@
 
 **ELI5:** If you scramble the words of a sentence, you get nonsense. But self-attention treats "I love you" the same as "you love I" because it sees all words at once without order. Positional encoding is how we tell the model "these words were in this order" — we add a unique pattern to each word's representation that encodes where it sits in the sequence.
 
+```mermaid
+flowchart LR
+    Word1["'I'"] --> Emb1["Token Embedding"]
+    Word2["'love'"] --> Emb2["Token Embedding"]
+    Word3["'you'"] --> Emb3["Token Embedding"]
+
+    Pos0["PE(pos=0)"] --> Add1
+    Pos1["PE(pos=1)"] --> Add2
+    Pos2["PE(pos=2)"] --> Add3
+
+    Emb1 --> Add1["+"]
+    Emb2 --> Add2["+"]
+    Emb3 --> Add3["+"]
+
+    Add1 --> Attn["Self-Attention<br/>sees content + position"]
+    Add2 --> Attn
+    Add3 --> Attn
+
+    SinCos["Sine/Cosine waves<br/>at different frequencies<br/>create unique<br/>position signatures"] -.-> Pos0
+    SinCos -.-> Pos1
+    SinCos -.-> Pos2
+```
+
 **Simple Explanation:** Positional encoding adds information about the position of each token in a sequence to its embedding vector. Since self-attention is permutation-invariant (it doesn't know order), positional encoding is how the Transformer understands sequence order. The original Transformer used sinusoidal functions at different frequencies to create unique position signatures.
 
 **Technical Definition:** Positional encoding (PE) is a deterministic or learned function that maps position indices to d-dimensional vectors, which are added to token embeddings to provide positional information. The sinusoidal variant from Vaswani et al. (2017) uses:

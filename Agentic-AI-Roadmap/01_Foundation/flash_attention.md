@@ -4,6 +4,21 @@
 
 **ELI5:** Imagine you need to compute something with a big box of LEGOs, but you can only hold a few at a time. Normally you'd dump all LEGOs on the floor (slow memory), sort them, then build. Flash Attention keeps the LEGOs in your hands (fast memory) the whole time, sorting and building in tiny batches — it never dumps them on the floor. The result is the same, but it's way faster and uses less space.
 
+```mermaid
+flowchart TD
+    subgraph Standard["Standard Attention"]
+        QKV1["Q, K, V matrices"] --> Full["Materialize full<br/>n×n attention matrix<br/>in HBM (slow GPU mem)"]
+        Full --> SM1["softmax"]
+        SM1 --> Slow["O(n²) memory<br/>O(n²) HBM reads/writes<br/>1000x slower than SRAM"]
+    end
+
+    subgraph Flash["Flash Attention"]
+        QKV2["Q, K, V matrices"] --> Tiles["Split into tiles<br/>that fit on-chip<br/>in SRAM (fast)"]
+        Tiles --> Inc["Incremental softmax<br/>computed tile-by-tile"]
+        Inc --> Fast["Exact same result<br/>2-4x faster<br/>O(n) memory (1000x less)"]
+    end
+```
+
 **Simple Explanation:** Flash Attention is an exact attention algorithm that computes attention without materializing the full n×n attention matrix in GPU HBM (slow memory). Instead, it operates in tiles/blocks that fit in GPU SRAM (fast on-chip memory), computing the softmax and weighted sum incrementally. It produces exactly the same output as standard attention but is 2-4x faster and uses O(n) memory instead of O(n²).
 
 **Technical Definition:** Flash Attention (Dao et al., 2022) is an IO-aware exact attention algorithm that reduces HBM reads/writes from O(n² · d) to O(n² · d² / M) where M is SRAM size. It uses tiling to process Q, K, V in blocks that fit in GPU SRAM, recomputes attention on the fly during backward pass (avoiding storing the n×n matrix), and applies safe softmax in an online manner. The key insight: for N=4096, d=128, M=192KB (A100 SRAM), the naive algorithm writes ~2GB to HBM while Flash Attention writes ~2MB — a 1000x reduction.

@@ -4,6 +4,31 @@
 
 **ELI5:** Imagine writing an essay one letter at a time. It's slow. But if you quickly guess the next 5 letters for each step (even if sometimes wrong), and your teacher only verifies your guesses, you might write 3x faster. If a guess is wrong, the teacher corrects it and you continue from there. Speculative decoding is the AI version of this — a fast "draft" model guesses several tokens ahead, and a slow "target" model verifies them in parallel.
 
+```mermaid
+flowchart LR
+    subgraph Draft["Draft Model (fast, small)"]
+        D1["Guess token 1"] --> D2["Guess token 2"]
+        D2 --> D3["Guess token 3"]
+        D3 --> DK["Guess token K"]
+    end
+
+    subgraph Verify["Target Model (large, accurate)"]
+        V["Verify all K guesses<br/>in a single forward pass<br/>(parallel)"]
+    end
+
+    DK --> V
+
+    subgraph Accept["Rejection Sampling"]
+        AcceptOK["Accepted ✓<br/>(match target's distribution)"]
+        Reject["Rejected ✗<br/>(corrected by target)"]
+    end
+
+    V --> AcceptOK
+    V --> Reject
+    AcceptOK --> D1["Continue guessing<br/>from accepted pos"]
+    Reject --> Output["Final output<br/>2-5x faster<br/>Same quality as target"]
+```
+
 **Simple Explanation:** Speculative decoding is a technique to accelerate autoregressive generation by using a fast, cheap draft model to propose multiple candidate tokens, which are then verified in parallel by the large target model. Since verification can be done in one forward pass (processing all draft tokens at once), the target model's sequential work is reduced. The output distribution is mathematically identical to the target model alone — no quality loss.
 
 **Technical Definition:** Speculative decoding (Leviathan et al., 2022; Chen et al., 2023) accelerates autoregressive LLM inference by having a draft model M_q quickly generate K candidate tokens per step, then using the target model M_p to verify all K tokens in parallel. The verification uses rejection sampling to ensure the final distribution matches M_p exactly. Given draft acceptance rate α, the speedup is approximately 1/(1-α+α/K). For α=0.8, K=5, speedup ≈ 2.7x. The key insight: the target model's single forward pass over K tokens is 2-5x faster than K sequential passes, because it's compute-bound (parallel) rather than memory-bound (sequential).

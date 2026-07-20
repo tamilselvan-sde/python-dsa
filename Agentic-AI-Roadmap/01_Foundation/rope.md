@@ -4,6 +4,35 @@
 
 **ELI5:** Imagine you have a compass needle that points to word positions. As you move along a sentence, the needle rotates. RoPE does this for AI — it rotates the Query and Key vectors by an angle proportional to their position. Words that are close together have similar rotation angles; far apart words have very different angles. The model can "feel" the distance between words by comparing their rotation.
 
+```mermaid
+flowchart LR
+    subgraph Input["Input Sequence"]
+        W1["Token<br/>'The'<br/>pos=0"]
+        W2["Token<br/>'cat'<br/>pos=1"]
+        W3["Token<br/>'sat'<br/>pos=2"]
+    end
+
+    subgraph Rotate["Apply RoPE"]
+        R1["Rotate Q/K<br/>by angle θ(0)"]
+        R2["Rotate Q/K<br/>by angle θ(1)"]
+        R3["Rotate Q/K<br/>by angle θ(2)"]
+        W1 --> R1
+        W2 --> R2
+        W3 --> R3
+    end
+
+    subgraph Attend["Compute Attention"]
+        A1["Q₀ · K₁<br/>angle encodes<br/>distance = 1"]
+        A2["Q₀ · K₂<br/>angle encodes<br/>distance = 2"]
+        R1 --> A1
+        R2 --> A1
+        R1 --> A2
+        R3 --> A2
+    end
+
+    Attend --> Output["Position-aware<br/>attention scores"]
+```
+
 **Simple Explanation:** Rotary Position Embedding (RoPE) encodes position by rotating the Query and Key vectors in attention before computing the dot product. The rotation angle depends on the token's position — tokens at different positions get different rotations. This allows the attention mechanism to directly capture relative position information through the angle between rotated vectors.
 
 **Technical Definition:** RoPE (Su et al., 2021) is a position encoding method that applies a rotation matrix R(θ, pos) to the Query and Key vectors in self-attention. The rotation is defined as:

@@ -4,6 +4,17 @@
 
 **ELI5:** Imagine you have a team of specialists: a chef, a mechanic, and a doctor. When someone asks "What's for dinner?", only the chef answers — the mechanic and doctor stay quiet. MoE does this for neural networks: it has many "expert" sub-networks, but only activates a few per input, saving massive compute while keeping high capacity.
 
+```mermaid
+flowchart LR
+    Input["Input Token"] --> Router["Router / Gate<br/>Learned classifier"]
+    Router --> E1["Expert 1<br/>Chef<br/>(weight: 0.9)"]
+    Router --> E2["Expert 2<br/>Mechanic<br/>(weight: 0.1)"]
+    Router --> E3["Expert 3<br/>Doctor<br/>(weight: 0.0, skipped)"]
+    E1 --> Combine["Weighted sum<br/>0.9 × Chef + 0.1 × Mechanic"]
+    E2 --> Combine
+    Combine --> Output["Final output"]
+```
+
 **Simple Explanation:** Mixture of Experts is a neural network architecture where multiple "expert" feed-forward networks are used, but a learned router/gating mechanism selects only a subset (typically 1-2) of experts for each input token. This allows models to have billions of parameters but only use a fraction of them per forward pass.
 
 **Technical Definition:** MoE replaces the standard feed-forward network (FFN) in each Transformer layer with multiple expert FFNs (typically 8-256). A learned router computes a probability distribution over experts and selects the top-k experts for each token. The output is a weighted sum of the selected experts' outputs:

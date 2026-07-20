@@ -4,6 +4,22 @@
 
 **ELI5:** Artificial Intelligence (AI) is the grand idea of machines acting smart. Machine Learning (ML) is teaching machines to learn from data without explicit programming. Deep Learning (DL) is a subset of ML using brain-like neural networks with many layers.
 
+```mermaid
+flowchart LR
+    AI["AI<br/>Machines acting smart"]
+    ML["ML<br/>Learn from data"]
+    DL["DL<br/>Neural networks<br/>with many layers"]
+    ExAI["Expert Systems<br/>Game AI<br/>Logic"]
+    ExML["Decision Trees<br/>SVM<br/>Random Forest"]
+    ExDL["CNNs<br/>Transformers<br/>GANs"]
+
+    AI --> ExAI
+    AI --> ML
+    ML --> ExML
+    ML --> DL
+    DL --> ExDL
+```
+
 **Simple Explanation:** Think of AI as the entire field of "making computers do smart things." ML is a approach where computers learn patterns from data rather than following hard-coded rules. DL is a more sophisticated ML technique using multi-layered neural networks that automatically discover features.
 
 **Technical Definition:**

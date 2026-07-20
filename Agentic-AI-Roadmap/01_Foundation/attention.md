@@ -4,6 +4,22 @@
 
 **ELI5:** When you read a sentence, your brain focuses on the most relevant words to understand meaning. For "The dog chased the cat because it was playful," you know "it" refers to "dog," not "cat." Attention is how neural networks do the same thing — they learn which parts of the input are relevant to each other and weigh them accordingly.
 
+```mermaid
+flowchart TD
+    Input["Input sentence:<br/>'The dog chased the cat<br/>because it was playful'"]
+    Step1["1. Each word looks at<br/>every other word"]
+    Step2["2. Compute relevance scores<br/>(how much does 'it'<br/>relate to 'dog' vs 'cat'?)"]
+    Step3["3. Weight each word<br/>by its relevance score"]
+    Step4["4. Combine into<br/>focused understanding<br/>(Pay most attention to 'dog')"]
+    Output["Output:<br/>Model understands<br/>'it' = 'dog' ✓"]
+
+    Input --> Step1
+    Step1 --> Step2
+    Step2 --> Step3
+    Step3 --> Step4
+    Step4 --> Output
+```
+
 **Simple Explanation:** Attention is a mechanism that allows a model to dynamically focus on specific parts of the input when producing output. Instead of compressing the entire input into a fixed-size vector (like older encoder-decoder models), attention computes a weighted combination of all input elements, where weights represent relevance.
 
 **Technical Definition:** Attention computes a mapping from a Query (Q) and a set of Key-Value (K-V) pairs to an output. The output is a weighted sum of Values, where the weights are computed by a compatibility function between Query and Keys. Formally: `Attention(Q, K, V) = softmax(QK^T / √d_k) V`. This was introduced by Bahdanau et al. in 2014 for neural machine translation, enabling models to "look at" different source words at each decoding step.
