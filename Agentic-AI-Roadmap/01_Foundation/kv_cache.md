@@ -23,7 +23,7 @@ flowchart TD
 
 **Technical Definition:** In autoregressive Transformer decoding, at time step t, the model computes attention over all t tokens seen so far. Without caching, this requires O(t² · d) computation. KV cache stores the key and value projections from previous steps in GPU memory, so only the newest token's projections need computation. The attention computation becomes O(t · d) per step instead of O(t² · d), but memory grows as O(t · d · n_layers). For a 70B parameter model with 4096 token context, the KV cache requires ~40GB of GPU memory.
 
-![KV cache comparison: MHA, GQA, MQA, MLA](https://upload.wikimedia.org/wikipedia/commons/d/dc/DeepSeek_KV_cache_comparison_between_MHA%2C_GQA%2C_MQA%2C_MLA.svg)
+![KV cache comparison: MHA, GQA, MQA, MLA](https://upload.wikimedia.org/wikipedia/commons/8/83/DeepSeek_KV_cache_comparison_between_MHA%2C_GQA%2C_MQA%2C_MLA.svg)
 
 *Comparison of KV cache usage across different attention variants. Multi-head attention (MHA) uses the most cache, while grouped query attention (GQA), multi-query attention (MQA), and multi-head latent attention (MLA) progressively reduce it.*
 

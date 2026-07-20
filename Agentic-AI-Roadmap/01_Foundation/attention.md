@@ -46,7 +46,7 @@ Before attention, sequence-to-sequence models used a fixed-size context vector:
 
 ## 3. Real-world Example
 
-![QKV attention mechanism — Query, Key, Value vectors interact to produce attention-weighted output](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Attention_qkv.png/600px-Attention_qkv.png)
+![QKV attention mechanism — Query, Key, Value vectors interact to produce attention-weighted output](https://upload.wikimedia.org/wikipedia/commons/8/81/Attention-qkv.png)
 
 | Company | Use Case | Attention Variant | Impact |
 |---------|----------|-------------------|--------|

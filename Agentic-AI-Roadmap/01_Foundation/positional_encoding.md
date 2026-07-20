@@ -36,7 +36,7 @@ PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
 ```
 where `pos` is the token's position and `i` is the dimension index. These create a unique encoding for each position with properties that allow the model to easily learn relative positions.
 
-![Sinusoidal positional encoding heatmap](https://upload.wikimedia.org/wikipedia/commons/5/52/Absolute_positional_encoding.png)
+![Sinusoidal positional encoding heatmap](https://upload.wikimedia.org/wikipedia/commons/a/a9/Absolute_positional_encoding.png)
 
 *Visualization of absolute positional encodings for 100 sequence positions with 100 embedding dimensions. Each row is a unique position signature, with different frequencies across dimensions.*
 

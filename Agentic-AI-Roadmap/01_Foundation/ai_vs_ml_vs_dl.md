@@ -27,7 +27,7 @@ flowchart LR
 - **ML (1959 - Arthur Samuel):** "Field of study that gives computers the ability to learn without being explicitly programmed." Algorithms improve performance at some task `T` with experience `E` and performance measure `P`.
 - **DL (2012 - AlexNet breakthrough):** ML algorithms using artificial neural networks with ≥2 hidden layers. Leverages hierarchical feature learning where higher layers learn abstract representations from lower-level features.
 
-![AI, ML, DL relationship diagram](https://upload.wikimedia.org/wikipedia/commons/3/3a/AI-ML-DL.png)
+![AI, ML, DL relationship diagram](https://upload.wikimedia.org/wikipedia/commons/b/bb/AI-ML-DL.svg)
 
 *AI is the broadest field, ML is a subset of AI, and Deep Learning is a subset of ML.*
 

@@ -23,7 +23,7 @@ flowchart LR
 
 Each output vector is a weighted sum of all input vectors, weighted by how relevant each position is to the current position.
 
-![Self-attention mechanism: QKV computation flow](https://upload.wikimedia.org/wikipedia/commons/0/01/Attention-qkv.png)
+![Self-attention mechanism: QKV computation flow](https://upload.wikimedia.org/wikipedia/commons/8/81/Attention-qkv.png)
 
 *Visualization of a single attention head computing softmax(Q·K^T)·V. Queries, Keys, and Values all come from the same input sequence.*
 
