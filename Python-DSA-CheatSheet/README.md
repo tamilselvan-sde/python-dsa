@@ -1,5 +1,7 @@
 # Python DSA Cheat Sheet — Beginner → FAANG Ready
 
+> **SEO:** Python DSA cheat sheet covering variables, data types (list, dict, set, tuple, string), control flow, OOP, collections (Counter, deque, heapq), 20 algorithms (binary search, sliding window, DP, BFS/DFS), Big-O analysis, and FAANG interview patterns. Every topic with Mermaid diagrams, dry runs, and LeetCode links.
+>
 > A practical, interview-focused handbook to take you from Python beginner to FAANG-ready.
 > Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 >

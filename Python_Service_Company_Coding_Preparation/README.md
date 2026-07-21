@@ -1,5 +1,7 @@
 # Python Service Company Coding Preparation
 
+> **SEO:** 350 Python coding interview questions for TCS, Infosys, Wipro, Accenture, HCL, CTS, Deloitte. 16 DSA patterns with flowcharts, 30-day roadmap, time complexity cheatsheet. Python interview preparation for service-based companies.
+>
 > **Your Ultimate Guide to Cracking Python Coding Interviews at Top Service-Based Companies**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)

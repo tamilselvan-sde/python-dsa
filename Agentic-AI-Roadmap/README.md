@@ -1,5 +1,7 @@
 # 🧠 Agentic AI Roadmap — From Beginner to Production Architect
 
+> **SEO:** Learn Agentic AI from scratch — Transformers, LLM Inference (vLLM, SGLang), RAG, AI Agents (LangChain, CrewAI, AutoGen), Vector DBs (FAISS, ChromaDB, Qdrant), Production Deployment, MLOps, and FAANG Interview Prep. 150+ guides with Mermaid diagrams.
+>
 > Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 >
 

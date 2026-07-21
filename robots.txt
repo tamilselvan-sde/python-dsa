@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tamilselvan-sde.github.io/python-dsa/SITEMAP.md

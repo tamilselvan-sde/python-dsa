@@ -1,0 +1,14 @@
+title: Python DSA & Agentic AI Roadmap
+description: >-
+  Complete Python DSA cheat sheet with 20 algorithms, Big-O analysis, FAANG patterns,
+  350 service-company interview questions, vector database guide (HNSW, IVF, FAISS),
+  and a 150+ guide Agentic AI Roadmap covering Transformers, RAG, AI Agents, LLM
+  Inference (vLLM), and production deployment. Built for Python developers preparing
+  for technical interviews at FAANG and service-based companies.
+author: Tamilselvan
+logo: /assets/logo.png
+url: "https://tamilselvan-sde.github.io/python-dsa"
+baseurl: "/python-dsa"
+plugins:
+  - jekyll-seo-tag
+theme: jekyll-theme-cayman

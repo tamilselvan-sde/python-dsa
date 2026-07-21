@@ -1,3 +1,7 @@
+> **SEO description:** Complete Python loops & conditionals guide — if/elif/else, for loops, while loops, for-else, break/continue/pass, nested loops, enumerate/zip/reversed/sorted, list comprehensions, iterators, generators. 20 interview questions with Mermaid diagrams.
+>
+> **keywords:** python loops, python for loop, python while loop, control flow python, if else python, list comprehension, python generators, python iterators, for-else python
+>
 # Python Loops & Conditionals — Complete DSA Notes
 
 > **Target:** Beginner → Advanced · All Loop Types · Mermaid Diagrams · Interview Questions

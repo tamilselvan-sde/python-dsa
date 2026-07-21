@@ -1,3 +1,7 @@
+> **SEO description:** Complete Python List DSA guide — creation, indexing, slicing, comprehension, two pointers, sliding window, kadane's algorithm, monotonic stack, prefix sum, interval merging, matrix traversal. 30 interview questions with Mermaid diagrams.
+>
+> **keywords:** python list, list slicing, list comprehension, sliding window python, two pointers python, monotonic stack, kadane's algorithm, python list interview questions
+>
 # Python List — Complete DSA Notes
 
 > 🎯 **Target:** Beginner → Advanced · 17 Chapters · Mermaid Diagrams · LeetCode Links

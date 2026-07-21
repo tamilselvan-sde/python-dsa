@@ -1,5 +1,7 @@
 # Vector Database Complete Guide
 
+> **SEO:** Complete vector database guide covering embeddings, similarity search (cosine, Euclidean), ANN algorithms (HNSW, IVF, Product Quantization), FAISS, ChromaDB, Milvus, Qdrant, Pinecone, RAG pipelines, production architecture, and 100+ interview questions. 25 parts + advanced extras.
+>
 > Author: **Tamilselvan** · ✉️ tamilselvan.sde@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/tamilselvan-ai/)
 >
 
